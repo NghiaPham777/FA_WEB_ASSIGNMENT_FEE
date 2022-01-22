@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,17 +12,18 @@
     <h1>Cart</h1>
     <h3>All the selected products in your cart</h3>
 </div>
+
 <body>
     <section class="cart">
         <form action="">
             <table>
                 <thead>
                     <tr>
-                        <th ><button style="background-color: red; color: white;">Clear Cart</button> </th>
+                        <th><button style="background-color: red; color: white;">Clear Cart</button> </th>
                         <th></th>
                         <th></th>
                         <th></th>
-                        <th ><button style="background-color: green;color: white;">Check out</button> </th>
+                        <th><button style="background-color: green;color: white;">Check out</button> </th>
                     </tr>
                     <tr>
                         <th>Product</th>
@@ -35,33 +37,38 @@
                     <tr>
                         <td style="width: 300px;">IPhone X</td>
                         <td><input type="number" value="1" min="1" required></td>
-                        <td><span>599</span> USD</td> 
+                        <td><span>599</span> USD</td>
                         <td><span>1800</span>USD</td>
-                        <td ><button style="background-color: red; color: white;">Remove</button> </td>
+                        <td><button style="background-color: red; color: white;">Remove</button> </td>
                     </tr>
                     <tr>
                         <td style="width: 300px;">IPhone X</td>
                         <td><input type="number" value="1" min="1" required></td>
-                        <td><span>599</span> USD</td> 
+                        <td><span>599</span> USD</td>
                         <td><span>1800</span>USD</td>
-                        <td ><button style="background-color: red; color: white;">Remove</button> </td>
+                        <td><button style="background-color: red; color: white;">Remove</button> </td>
                     </tr>
                     <tr>
                         <td></td>
                         <td></td>
-                        <td><div class="grand-total">
-                            <p style="font-weight: bold;">Grand total</p> 
-                        </div></td>
+                        <td>
+                            <div class="grand-total">
+                                <p style="font-weight: bold;">Grand total</p>
+                            </div>
+                        </td>
                         <td><span>1800</span>USD</td>
                         <td></td>
                     </tr>
                 </tbody>
             </table>
-            <div class="continue-shopping">
-                <button style="color: white; background-color: green;">continue shopping</button>
-            </div>
+
         </form>
-        
+        <div class="continue-shopping">
+            <button style="color: white; background-color: green;" onclick='onContinueShopping()'>continue shopping</button>
+        </div>
+
     </section>
 </body>
+<script type="text/javascript " src="/js/cart.js"></script>
+
 </html>
